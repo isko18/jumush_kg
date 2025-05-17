@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Editor config
+.vscode/
+.idea/
+*.swp
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Alembic migrations cache
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Logs and local state
+*.log
+*.pid
+*.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python test cache
+.cache/
+.pytest_cache/
+
+# FastAPI static files (optional)
+staticfiles/
